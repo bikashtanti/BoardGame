@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         Play.setOnClickListener {
-            val intent = Intent(this, The_Board::class.java)
+            val intent = Intent(this, Part1Activity::class.java)
             startActivity(intent)
         }
     }
