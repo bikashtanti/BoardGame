@@ -20,4 +20,5 @@
         android:textStyle="bold"
         android:visibility="visible"
         tools:visibility="visible" />
+
 </RelativeLayout>
