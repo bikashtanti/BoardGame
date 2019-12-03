@@ -4,10 +4,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#000000"
-    tools:context=".Part1Activity">
+    tools:context=".Part1Activity"
+    android:id="@+id/GamePage">
 
     <ImageView
         android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <ImageView
+        android:id="@+id/imageViewBox"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
     <TextView
