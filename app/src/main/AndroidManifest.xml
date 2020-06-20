@@ -9,8 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".PowersAssign"></activity>
-        <activity android:name=".Part1Activity"></activity>
+        <activity android:name=".TeamCreation"></activity>
+        <activity android:name=".Team" />
+        <activity android:name=".PowersAssign" />
+        <activity android:name=".Part1Activity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

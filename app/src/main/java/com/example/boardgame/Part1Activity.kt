@@ -38,8 +38,6 @@ class Part1Activity : AppCompatActivity() {
                 drawBoard(height,width)
                 drawBoardDecide=1
             }
-            val text: TextView = findViewById(R.id.textView) as TextView
-            text.text = "h" + posy +"w" + posx
 
             true
         }

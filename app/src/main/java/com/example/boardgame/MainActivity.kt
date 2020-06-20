@@ -2,9 +2,7 @@ package com.example.boardgame
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Button
 import android.content.Intent
-import android.widget.TextView
 import kotlinx.android.synthetic.main.activity_main.*
 
 
@@ -18,5 +16,10 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, Part1Activity::class.java)
             startActivity(intent)
         }
+        Team.setOnClickListener {
+            val intent = Intent(this, TeamCreation::class.java)
+            startActivity(intent)
+        }
+
     }
 }
